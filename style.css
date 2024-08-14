@@ -248,14 +248,20 @@ body {
 #product1 .pro-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  justify-content: space-evenly;
+  /* justify-content: center; */
   padding: 20px;
-  flex-wrap: wrap;
+  align-content: center;
+  width: fit-content;
+  margin: auto;
+ 
 }
+
+
 
 #product1 .pro {
   width: 23%;
   min-width: 250px;
+  justify-self: center;
   padding: 10px 12px;
   border-radius: 25px;
   cursor: pointer;
@@ -346,8 +352,8 @@ body {
 
 #bannar h2 {
   color: #fff;
-  font-size: 30px;
-  padding: 1px 0;
+  font-size: 22px;
+  padding: 25px;
 }
 
 #bannar h2 span {
@@ -647,9 +653,9 @@ footer .copyright {
     justify-content: center;
   }
 
-  #product1 .pro {
+  /* #product1 .pro {
     margin: 15px;
-  }
+  } */
 /* 
   #bannar {
     height: 20vh;
@@ -671,15 +677,6 @@ footer .copyright {
 
   #bannar3 .bannar-box {
     width: 28%;
-  }
-
-  #newsletter .form {
-    width: 70%;
-  }
-
-  /*Styling Bloge page for Tablet */
-  #blog-page {
-    padding: 80px 50px 0px 50px;
   }
 
   #page-header.blog-header {
